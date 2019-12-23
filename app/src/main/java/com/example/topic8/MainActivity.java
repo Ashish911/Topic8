@@ -1,6 +1,8 @@
 package com.example.topic8;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -22,6 +24,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class MainActivity extends AppCompatActivity {
 
     TextView tvOutput;
+    RecyclerView rc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         tvOutput = findViewById(R.id.tvOutput);
+
+//        rc = findViewById(R.id.recycle);
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(URL.base_url)
@@ -63,6 +68,5 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Error " + t.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
             }
         });
-
     }
 }

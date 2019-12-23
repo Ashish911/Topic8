@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateDeleteActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter employee No"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:id="@+id/etUDNo"></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btnUDS"></Button>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Name"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:id="@+id/etEmpName"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Salary"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:id="@+id/etEmpS"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee No"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:id="@+id/etEmpNo"></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btnU"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btnD"></Button>
+
+</LinearLayout>
