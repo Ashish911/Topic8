@@ -42,10 +42,10 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Employee No"
+        android:hint="Employee Age"
         android:textSize="25dp"
         android:layout_margin="20dp"
-        android:id="@+id/etEmpNo"></EditText>
+        android:id="@+id/etEmpA"></EditText>
 
     <Button
         android:layout_width="match_parent"
