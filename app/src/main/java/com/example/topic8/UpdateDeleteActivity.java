@@ -22,7 +22,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class UpdateDeleteActivity extends AppCompatActivity {
 
     private Button btnSearch, btnUpdate, btnDel;
-    EditText etEmpNo, etEmpName, etEmpSalary, etEmpAge;
+    private EditText etEmpNo, etEmpName, etEmpSalary, etEmpAge;
     Retrofit retrofit;
     EmployeeApi employeeApi;
 
